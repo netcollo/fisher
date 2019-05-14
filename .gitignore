@@ -1,0 +1,19 @@
+# Windows自动生成的文件:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python编译生成的文件:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# vscode 配置文件
+.vscode
+
+# My configurations:
+db.ini
+deploy_key_rsa
