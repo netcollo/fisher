@@ -1,5 +1,8 @@
 #判断输入的内容是否为ISDN
 def is_isdn_or_key(word):
+    """
+    
+    """
     isdn_or_key = 'key'
     # ISDN ： 一种为13位0至9的数字
     if len(word) == 13 and word.isdigit():
