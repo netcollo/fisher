@@ -8,7 +8,7 @@ def create_app():
     register_blueprint(app)
 
     db.init_app(app)
-    db.create_all()
+    db.create_all(app=app)
     return app
 
 def register_blueprint(app):
