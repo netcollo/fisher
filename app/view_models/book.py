@@ -12,7 +12,7 @@ class BookViewModel:
         pass
     
     @classmethod
-    def package_collection(cls, keyword):
+    def package_collection(cls, data, keyword):
         returned = {
             'books' : [],
             'total' : 0,
